@@ -1,0 +1,8 @@
+<div class="container">
+    <div class="row">
+      <div class="col-lg-3 m-2 shadow-lg p-3 mb-5 bg-white rounded" *ngFor="let note of notes">
+        <p class="card-content text-center fw-bold">{{ note.title }}</p>
+        <p class="text-center">{{ note.content }}</p>
+      </div>
+    </div>
+  </div>
